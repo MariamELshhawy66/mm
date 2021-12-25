@@ -1,0 +1,113 @@
+.navbar{
+   
+    background-color:#343D44;
+    box-shadow: 0 3px 6px #3D2219;
+	text-transform: uppercase;
+	
+}
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2) ,rgba(0, 0, 0, 0.5))
+    ,url(../img/a1.jpg) ;
+
+    background-position: center;
+    background-size: cover;
+	background-attachment: fixed;
+}
+.box{
+    position: absolute;
+    top: 40%; left: 20%;
+}
+.box h1{
+    color: #fff;
+    font-size: 1,5rem;
+    text-transform: uppercase;
+    word-spacing: 5px; letter-spacing: 3px;
+    line-height: 150%;
+    margin-bottom: 30px;
+    
+}
+span{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    color: #F2D5AD;
+}
+.box-btn{
+    border: solid #E19B59 1px;
+    margin-right: 15px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #E19B59;
+}
+.btn:hover{ 
+background-color: #425C76;
+color: white;
+}
+#testimonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) ,rgba(0, 0, 0, 0.705))
+    ,url(../img/patrick-tomasso-atw9Ck563Yo-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-attachment: fixed;
+    
+
+ }
+ #testimonials i{
+     font-size: 30px;
+     margin-left: -50px;
+     margin-bottom: 15px;
+     transform: rotate(45deg);
+ }
+ #testimonials  p{
+     line-height: 150%;
+     font-style: italic;
+     margin-bottom: 15px;
+ }
+ #testimonials img{
+    height: 50px; width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+
+ }
+ #testimonials  h2{
+	line-height: 150%;
+	font-style: italic;
+	margin-bottom: 15px;
+	text-align: center;
+}
+label{
+    font-size: 20px;
+    color: #2F517B;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+input[type=text] , input[type=email] ,select , textarea{
+    width: 100%;
+    padding: 7px;
+  border: solid 2px #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+ input[type=checkbox]{
+    margin-bottom: 15px
+    
+}
+
+
+button{
+    padding: 12px 30px;
+    border: solid 2px #2F517B;
+    border-radius: 15px;
+    background-color: #2F517B;
+    color: white;
+	margin-bottom: 12px;
+}
+
+button:hover{
+    background-color: transparent;
+    color: wheat;
+}
